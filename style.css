@@ -1,0 +1,142 @@
+.body{
+    margin:0;
+    border: 0;
+    background: blue;
+    
+}
+
+.navbar .container-fluid img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+ /*main tag code*/
+main{
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: grid;
+    grid-template-columns: auto 300px; 
+    grid-template-rows: auto auto;
+    
+}
+
+main .about{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #f3a801;
+    letter-spacing: 10px;
+}
+
+main .body-font{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 19px;
+}
+
+main .read{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #f3a801;
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    width: 10%;
+    text-decoration: none;
+}
+
+main .pic{
+    background-image: url(../images/girl.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+/*code for page 2 main*/
+    .page2{
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 300px 300px 300px;
+        width: 80%;
+        margin: 40px;
+    }
+
+/*code for form*/
+.box{
+    margin-top: 120px;
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+  }
+  .box h3{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #f3a801;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #f3a801;
+  }
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #f3a801;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .box input[type = "submit"]:hover{
+    background: #f3a801;
+  }
+  
+  
+
+footer{
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 300px auto;
+    
+}
+
+footer .design{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+    margin-top: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
